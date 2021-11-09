@@ -1,0 +1,53 @@
+.superDiv{
+  align-items: center;
+  text-align: center;
+  display: grid;
+  grid-template-rows: 1fr;
+  
+}
+
+.controlledForm{
+  color: #121212;
+  background: rgb(28, 248, 175);
+  border-radius: 3px;
+  align-items: center;
+}
+
+.form{
+  padding: 20px;
+  align-items: center;
+  text-align: center;
+  border: 1px solid rgb(28, 248, 175);
+  border-radius: 5px;
+  width: min-content;
+}
+
+.formDiv{
+  margin:20px;
+}
+
+p.danger {
+  color: rgba(255, 0, 0, 0.657);
+  font-size: 10px;
+}
+
+input.danger {
+  border: 2px solid rgba(255, 0, 0, 0.657);
+}
+
+input{
+  margin-left: 7px;
+  border-radius: 2px;
+  border: none;
+}
+
+.submit{
+  padding: 5px;
+  color: #121212;
+  background-color: rgb(28, 248, 175);
+}
+
+.submit:hover{
+  color: #fff;
+  background-color: rgb(12, 112, 79);
+}

@@ -1,0 +1,31 @@
+.containerDiv{  
+  background-color: #121212;
+  border-bottom: 1px solid #0fa1a1;
+}
+
+.div1 { 
+  display: flex;
+  flex-direction: row;
+  align-items: left;
+  margin-right: 20px;
+}
+
+.div1 a{
+  margin-left:20px; 
+  color: #fff;
+  margin-top:10px;
+  text-decoration: none;
+}
+
+.div1 img{
+  width: 40px;
+  height:40px;
+}
+
+.searchBar{
+  flex:1;
+  align-items: right;
+  text-align: right;
+  margin-top:10px;
+  margin-right: 20px;
+}
